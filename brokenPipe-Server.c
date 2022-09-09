@@ -12,7 +12,6 @@ void SIGPIPEhandler(int signal);   //Handler Function prototype.
 extern int errno;
 
 //Sender Program using named pipe (FIFO).
-//Execute akq2BSender first, and then akq2BReceiver, for optimal execution.
 int main(int argc, char* argv[]){  
 	int fd, writeReturn;
 
