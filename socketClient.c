@@ -1,9 +1,3 @@
-/* Student ID: 110034991. 
-   1 + 1 + 0 = 2 -> S  = SUM1
-   0 + 3 + 4 = 7 -> M  = SUM2
-   9 + 9 + 1 = 19 -> L = SUM3
-   */
-
 #include <ctype.h>
 #include <sys/types.h>
 #include <sys/socket.h>
