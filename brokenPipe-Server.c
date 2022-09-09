@@ -51,7 +51,7 @@ int main(int argc, char* argv[]){
     return 0;
 }
 
-//Handler function
+//Handler function.
 void SIGPIPEhandler(int signal) {
     printf("** SIGPIPE caught while writing to FIFO. **\n");
 }
