@@ -1,6 +1,3 @@
-//Afrasiyab Khan
-//Student ID 110034991
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
