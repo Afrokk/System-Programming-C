@@ -159,7 +159,7 @@ void* sorter(void* params) {
 //Merger Function:
 void* merger(void* params) {
     printf("----------------------------------------\n");
-    printf("MERGER THREAD:\n");
+    printf("MERGER THREAD %d:\n", threadCount);
 
     //Getting the parameters from the struct.
     int from_index = ((parameters*)params)->from_index;
