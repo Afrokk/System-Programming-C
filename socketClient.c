@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
 
     //Receiving Difference
     recv(socketFD, &Diff, sizeof(int), 0);
-  
+
     printf("The server told me %d is their difference.\n", Diff);
 
     printf("Thank you. Client terminated.\n");
